@@ -9,11 +9,17 @@
 ##### 步骤
 
 1、按照GCC，并且配置bin到环境变量中
+
 2、使用`gcc -v`查看版本号
+
 3、安装Rust
-3-1、启动`rustup-init`，并且修改`default host triple`的命名，将后缀的"msvc"改成"gnu"
+
+3-1、启动`rustup-init`，在命令行中选择第二项，并且修改`default host triple`的命名，将后缀的"msvc"改成"gnu"，其他则默认
+
 3-2、按回车，进行默认安装
+
 4、使用`rustc -V`查看版本号
+
 5、curl代理（注意也要检查git的代理）
 
 ```
