@@ -2,9 +2,17 @@
 
 ##### 前置
 
+//后续会用到
+
 1、安装[`gcc for windows`](https://sourceforge.net/)
 
+//foundry是rust编写的
+
 2、安装[rustup-init](https://www.rust-lang.org/zh-CN/)
+
+//curl下载工具
+
+3、安装[`curl`](https://curl.se/)
 
 ##### 步骤
 
