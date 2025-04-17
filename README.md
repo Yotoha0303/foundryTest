@@ -112,15 +112,15 @@ forge test
 
 9、工具介绍
 
-forge 类似hardhat，用于编译、部署、测试solidity合约(Rust速度很快)
+`forge`类似hardhat，用于编译、部署、测试solidity合约(Rust速度很快)
 
-cast 类似Ethers.js，轻量级交互命令工具
+`cast`类似Ethers.js，轻量级交互命令工具
 
-anvil 本地节点
+`anvil`本地节点
 
-chisel  智能合约模板生成工具
+`chisel`智能合约模板生成工具
 
-foundry-cli  所有组件的入口点
+`foundry-cli`所有组件的入口点
 
 
 
