@@ -9,6 +9,10 @@
 
 3、安装[`curl`](https://curl.se/)  //curl下载工具
 
+备注：安装步骤参考[`foundry`](https://github.com/foundry-rs/foundry)
+
+在windows下，使用git的git bash来进行下载、编译和运行
+
 ##### 步骤
 
 1、按照GCC，并且配置bin到环境变量中
@@ -104,7 +108,7 @@ chisel --version
 //创建初始化项目counter
 forge init counter
 
-
+//进入到项目中，如cd counter/
 forge build
 
 forge test
