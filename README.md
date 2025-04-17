@@ -23,13 +23,26 @@
 
 4、使用`rustc -V`查看版本号
 
-5、curl代理（注意也要检查git的代理）
+5、[如果需要代理]curl代理（注意也要检查git的代理）
+
+如果需要额外配置git的代理，可以参考[`git proxy`配置](https://gist.github.com/evantoli/f8c23a37eb3558ab8765)
 
 ```
 //每次启动git bash都需要配置一次
-
+//在git bash中，配置curl的代理（将http和https的代理都指向http本地代理）
 export http_proxy=http://127.0.0.1:10808
 export https_proxy=http://127.0.0.1:10808
+
+//可能会需要用到的git代理
+//设置http的代理
+git config --global http.proxy http://127.0.0.1:1080
+//设置http的代理
+git config --global https.proxy https://127.0.0.1:1080
+
+//移除http的代理
+git config --global --unset http.proxy
+//移除https的代理
+git config --global --unset https.proxy
 ```
 
 6、开始安装
